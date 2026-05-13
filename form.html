@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ana">
+        <h1>üyelik oluşturma ekranı</h1>
+        <center>
+            <form action="grop.php" method="post">
+                Üyelik Oluştur<br>
+                <input type="text" placeholder="İsminizi giriniz..." name="isim"><br>
+                <input type="password" placeholder="Şifre giriniz..." name="sifre"><br>
+                <button type="submit">Gönder</button>
+
+            </form><br>
+
+
+        </center>
+        <fieldset>
+        <a href="oyun.html">oyun için tıkla</a><br>
+        <a href="index.html">index'e dön</a><br>
+        <a href="hakkinda.html">hakkında</a>
+        </fieldset>
+    </div>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAhZp6WSQ_H2RjEJUSPg_5Yf887zcJVnLM",
+    authDomain: "ornek-90891.firebaseapp.com",
+    projectId: "ornek-90891",
+    storageBucket: "ornek-90891.firebasestorage.app",
+    messagingSenderId: "393121025355",
+    appId: "1:393121025355:web:1edad0a60602c6faaaecce"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+</body>
+</html>

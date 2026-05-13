@@ -1,0 +1,35 @@
+body
+{
+    background-color: lightblue;
+
+}
+.ana
+{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    height: fit-content;
+}
+canvas
+{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 60%;
+}
+form
+{
+    width: 40%;
+    height: fit-content;
+    background-color: lightgray;
+    padding: 10px;
+}
+input
+{
+    margin: 2px;
+}
+button
+{
+    margin: 2px;
+}
